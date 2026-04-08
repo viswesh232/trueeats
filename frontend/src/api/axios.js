@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API_URL = "https://trueeats-backend.onrender.com";
+const API_URL = "https://trueat.onrender.com/api";
 const API = axios.create({
     //baseURL: 'http://localhost:5000/api', // Your Backend Address
     baseURL: API_URL
